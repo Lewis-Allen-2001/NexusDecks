@@ -97,7 +97,7 @@ a:hover {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100svh;
 }
 
 .img2Yu-Gi-Oh {
@@ -105,7 +105,7 @@ a:hover {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100svh;
 }
 
 .img3Pokemon {
@@ -113,7 +113,7 @@ a:hover {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100svh;
 }
 
 .MTG,
