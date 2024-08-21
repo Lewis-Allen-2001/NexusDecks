@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(255, 252, 242);
+}
+
+.img-links {
+  justify-content: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.MTG-links {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+p {
+  font-weight: bold;
+}
