@@ -151,8 +151,7 @@ footer {
   color: #555;
   padding: 40px;
 }
-
-@media only screen and (min-width: 390px) and (orientation: portrait) {
+@media (max-width: 400px) {
   header {
     padding: 1rem 1rem;
     position: fixed;
@@ -161,5 +160,39 @@ footer {
     z-index: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .Yu-Gi-Oh {
+    position: absolute;
+    bottom: 200px;
+    left: 3rem;
+    text-decoration: #f5f4f4;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 1rem 1rem;
+    position: fixed;
+    color: #fff;
+    gap: 1rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Yu-Gi-Oh {
+    position: absolute;
+    bottom: 200px;
+    left: 3rem;
+    text-decoration: #f5f4f4;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
   }
 }
