@@ -171,6 +171,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0.9rem;
+    -webkit-backdrop-filter: blur(10px);
   }
 }
 
@@ -191,6 +192,7 @@ footer {
     left: 3rem;
     text-decoration: #f5f4f4;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     gap: 0.9rem;
