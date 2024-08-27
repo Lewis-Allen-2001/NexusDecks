@@ -50,10 +50,6 @@ a:hover {
   transform: scale(1.4);
 }
 
-img {
-  border-radius: 20px;
-}
-
 .MTG {
   position: absolute;
   bottom: 200px;
@@ -112,17 +108,8 @@ img {
   height: 100vh;
 }
 
-.img3Pokemon {
-  background-image: url(https://primary.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/pokemon-tcg-scarlet-violet-shrouded-fable-facebook_en-high.jpg?enable-io=true&enable=upscale&crop=1919%2C1004%2Cx0%2Cy0%2Csafe&width=1170&height=612);
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
 .MTG,
-.Yu-Gi-Oh,
-.Pokemon {
+.Yu-Gi-Oh {
   position: absolute;
   bottom: 200px;
   left: 3rem;
