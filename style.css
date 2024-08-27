@@ -50,6 +50,10 @@ a:hover {
   transform: scale(1.4);
 }
 
+img {
+  border-radius: 20px;
+}
+
 .MTG {
   position: absolute;
   bottom: 200px;
